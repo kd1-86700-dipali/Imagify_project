@@ -1,0 +1,45 @@
+.text-to-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem 1rem;
+    align-items: center;
+    background-color:rgb(238, 252, 248);
+  }
+  
+  @media (min-width: 768px) {
+    .text-to-image-container {
+      flex-direction: row;
+      gap: 4rem;
+      align-items: center;
+    }
+  }
+  
+  .image-section {
+    flex-shrink: 0;
+  }
+  
+  .sample-image {
+    width: 20rem;
+    max-width: 24rem;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .text-section {
+    max-width: 600px;
+  }
+  
+  .text-section h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  

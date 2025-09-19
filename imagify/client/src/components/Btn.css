@@ -1,0 +1,48 @@
+.container {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #2d2d2d;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 1.875rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 2.25rem;
+    }
+  }
+  
+  .generate-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 3rem;
+    border-radius: 9999px;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    transition: all 0.5s ease;
+  }
+  
+  .generate-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .star-icon {
+    height: 1rem;
+  }
+  
